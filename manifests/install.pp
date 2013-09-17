@@ -5,6 +5,6 @@ class windows_package_handler::install (
     ensure          => installed,
     provider        => 'chocolatey',
     install_options => 'latest'
-  }  
+  }
 
 }
